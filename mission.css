@@ -1,0 +1,22 @@
+center{
+    position: relative;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url('images/inbound-marketing-customer-retention-concept-banner-website-app-flat-vector-cartoon-illustration-isolated-white-background-leads-generation-business-technology_605858-2060 - Copy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section{
+    background-color:green;
+    margin-right:0px;
+    margin-left: 0px;
+    }
+    div{
+        margin-right: 50px;
+        margin-left: 100px;
+    }

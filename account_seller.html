@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>
+        account of seller
+    </title>
+    <link rel="stylesheet" href="seller.css">
+</head>
+
+<body><center>
+
+    <h1>CREATE SELLER'S ACCOUNT</h1>
+    <div class="cont">
+
+
+        <form action="files/seller-regist.php" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        First Name:
+                    </td>
+                    <td><input type="text" size="30" name="fname"></td>
+                </tr>
+                <tr>
+                    <td>
+                        Last Name:
+                    </td>
+                    <td><input type="text" size="30" name="lname"></td>
+                </tr>
+                <tr>
+                    <td>
+                        Email:
+                    </td>
+                    <td><input type="text" size="30" name="email"></td>
+                </tr>
+                <tr>
+                    <td>
+                        Password:
+                    </td>
+                    <td><input type="password" size="30" name="password"></td>
+                </tr>
+                <tr>
+                    <td>
+                        TIN Number:
+                    </td>
+                    <td><input type="number" size="30" name="tin_number"></td>
+                </tr>
+                <tr>
+                    <td>
+                        Sex:
+                    </td>
+                    <td>
+                        <input type="radio" name="sex" value="M" />
+                        <input type="radio" name="sex" value="F" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Hobby:
+                    </td>
+                    <td>
+                        <input type="checkbox" name="hobby" value="s" />Sleeping
+                        <input type="checkbox" name="hobby" value="e" />Eating
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Provinces:
+                    </td>
+                    <td>
+                        <select name="province">
+                            <option value="0">Please Select the Province</option>
+                            <option value="1">kigali city</option>
+                            <option value="2">northern province</option>
+                            <option value="3">western province</option>
+                            <option value="4">eastern province</option>
+                            <option value="5">southern province</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="REGIST"></td>
+                </tr>
+            </table>
+        </form>
+        
+    </div></center>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+body{
+background:url('images/contact-us.jpg')no-repeat;
+background-size: cover;
+font-family:arial;
+}
+section{
+    background-color:green;
+    margin-right:0px;
+    margin-left: 0px;
+    }
+    div{
+        margin-right: 50px;
+        margin-left: 100px;
+    }

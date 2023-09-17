@@ -1,0 +1,14 @@
+body
+{
+
+    background:url("images/1000_F_284668187_ByJ1JJYOlqCuBRJYzhEtIZaBR2gg8ZbA.jpg")no-repeat;
+    background-size: cover;
+    font-family:arial;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}

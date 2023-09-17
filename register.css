@@ -1,0 +1,57 @@
+form{
+    
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+      
+      /* Style the body or a container div for the login form */
+    
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 300px;
+          
+          
+          /* Style the form heading */
+          
+            text-align: center;
+            margin-bottom: 20px;
+          
+          
+          
+            display: block;
+            margin-bottom: 10px;
+            
+              width: 100%;
+              padding: 10px;
+              margin-bottom: 20px;
+              border: 1px solid #ccc;
+              border-radius: 3px;
+            
+              width: 100%;
+              padding: 10px;
+              background-color: #007bff;
+              color: #fff;
+              border: none;
+              border-radius: 3px;
+              cursor: pointer;
+
+              
+                background-color: #0056b3;
+              
+                text-decoration: none;
+                color: #007bff;
+            
+                text-decoration: underline;
+            
+      
+}
